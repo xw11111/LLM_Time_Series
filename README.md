@@ -2,25 +2,6 @@
 
 This repository contains an ECG foundation model for ECG analysis.
 
-## Repository Structure
-
-```
-.
-├── preprocess/
-│   └── preprocess.ipynb
-├── src/
-│   ├── Autoencoder.py
-│   ├── xresnet_embed.py
-│   ├── kmeans_gpu.py
-│   └── models/
-│       ├── xresnet1d.py
-│       └── basic_conv1d.py
-├── tokenizer.ipynb
-├── pretrain.py
-├── finetune.py
-└── requirement.txt
-```
-
 ## Usage
 
 ### 1. Preprocessing
