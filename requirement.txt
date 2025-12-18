@@ -1,0 +1,42 @@
+# ========= Core deep‑learning stack =========
+# torch==2.3.1
+# torchvision==0.18.1
+# torchaudio==2.3.1
+tensorflow-cpu==2.15.0
+# transformers>=4.41      # for HuggingFace models
+torchsummary
+
+# ========= Parameter-efficient fine-tuning =========
+peft>=0.9.0
+safetensors
+
+# ========= Scientific computing & data handling =========
+keras
+# numpy>=1.26.4
+# pandas>=2.2.2
+# scikit-learn>=1.4.2
+# joblib>=1.4.2
+
+# ========= ECG / time‑series utilities =========
+neurokit2>=0.2.5
+wfdb>=4.1.2 
+kneed
+# PyWavelets>=1.5.0
+
+# ========= Plotting =========
+# matplotlib>=3.8.4
+openTSNE
+
+# ========= (Optional) AWS helpers used in notebooks =========
+boto3
+s3fs
+fastai
+
+# ========= hyperparameter tuning =========
+optuna
+
+
+# sudo yum install -y libsndfile
+# python - <<'PY'
+# import soundfile as sf, ctypes.util
+# print("soundfile:", sf.__version__, "| lib:", ctypes.util.find_library("sndfile"))
