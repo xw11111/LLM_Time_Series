@@ -7,10 +7,7 @@ This repository contains an ECG foundation model for ECG analysis.
 ```
 .
 ├── preprocess/
-│   ├── preprocess_PTB.py
-│   ├── preprocess_CS.py
-│   ├── preprocess_CPSC2018.py
-│   └── preprocess_MIMIC.ipynb
+│   └── preprocess.ipynb
 ├── src/
 │   ├── Autoencoder.py
 │   ├── xresnet_embed.py
